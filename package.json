@@ -1,0 +1,20 @@
+{
+  "name": "server_nodejs",
+  "version": "1.0.0",
+  "description": "Servidor con Node JS y Express",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "author": "Víctor Mejía",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "env-var": "^7.5.0",
+    "express": "^4.19.2"
+  }
+}
